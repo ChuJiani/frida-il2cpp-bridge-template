@@ -2,7 +2,7 @@
 
 This project provides an application template for the [frida-il2cpp-bridge](https://github.com/vfsfitvnm/frida-il2cpp-bridge) library, which is an excellent library that enables hooking of IL2CPP applications. The template includes environment configuration and code compilation commands, as well as explanations of some common issues that beginners may encounter.
 
-## Cloning or Forking the Repository
+## Cloning the Repository
 
 You can start by cloning or forking this repository:
 
@@ -18,11 +18,11 @@ To install all dependencies, run the following command with yarn:
 yarn install
 ```
 
-> If you already have some of the dependencies installed globally (e.g. with `yarn global add package_name`), you can save disk space by manually installing the remaining ones with `yarn add package_name1 package_name2 ... --dev`.
-
 ## Compiling the Source Code
 
-Compile the target hook script with the predefined command, checking the `package.json` file for details:
+Compile the target hook script with the predefined command:
+
+> checking the `package.json` file for details
 
 ```PowerShell
 yarn run build
