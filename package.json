@@ -1,9 +1,9 @@
 {
   "scripts": {
     "build": "esbuild --bundle --outfile=output/hook.js src/main.ts",
-    "watch": "yarn run build --watch"
+    "watch": "npm run build --watch"
   },
-  "devDependencies": {
+  "dependencies": {
     "@types/frida-gum": "^18.3.1",
     "@types/node": "^18.15.0",
     "esbuild": "^0.17.11",
